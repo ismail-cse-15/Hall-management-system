@@ -1,0 +1,69 @@
+CREATE TABLE IF NOT EXISTS `lh` (
+  `id` int(11) NOT NULL,
+  `room_no` varchar(200) NOT NULL,
+  `capacity` varchar(200) NOT NULL,
+`student_alloted` varchar(200) NOT NULL,
+  `vacant` varchar(200) NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=latin1;
+ ALTER TABLE `lh`
+  ADD PRIMARY KEY (`id`);
+
+CREATE TABLE IF NOT EXISTS `hamid_hall` (
+  `id` int(11) NOT NULL,
+  `room_no` varchar(200) NOT NULL,
+  `capacity` varchar(200) NOT NULL,
+`student_alloted` varchar(200) NOT NULL,
+  `vacant` varchar(200) NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=latin1;
+ ALTER TABLE `hamid_hall`
+  ADD PRIMARY KEY (`id`);
+
+CREATE TABLE IF NOT EXISTS `selim_hall` (
+  `id` int(11) NOT NULL,
+  `room_no` varchar(200) NOT NULL,
+  `capacity` varchar(200) NOT NULL,
+`student_alloted` varchar(200) NOT NULL,
+  `vacant` varchar(200) NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=latin1;
+ ALTER TABLE `selim_hall`
+  ADD PRIMARY KEY (`id`);
+
+CREATE TABLE IF NOT EXISTS `bangabandhu_hall` (
+  `id` int(11) NOT NULL,
+  `room_no` varchar(200) NOT NULL,
+  `capacity` varchar(200) NOT NULL,
+`student_alloted` varchar(200) NOT NULL,
+  `vacant` varchar(200) NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=latin1;
+ ALTER TABLE `bangabandhu_hall`
+  ADD PRIMARY KEY (`id`);
+
+CREATE TABLE IF NOT EXISTS `shahidul_hall` (
+  `id` int(11) NOT NULL,
+  `room_no` varchar(200) NOT NULL,
+  `capacity` varchar(200) NOT NULL,
+`student_alloted` varchar(200) NOT NULL,
+  `vacant` varchar(200) NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=latin1;
+ ALTER TABLE `shahidul_hall`
+  ADD PRIMARY KEY (`id`);
+
+CREATE TABLE IF NOT EXISTS `zia_hall` (
+  `id` int(11) NOT NULL,
+  `room_no` varchar(200) NOT NULL,
+  `capacity` varchar(200) NOT NULL,
+`student_alloted` varchar(200) NOT NULL,
+  `vacant` varchar(200) NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=latin1;
+ ALTER TABLE `zia_hall`
+  ADD PRIMARY KEY (`id`);
+
+CREATE TABLE IF NOT EXISTS `tinshed_hall` (
+  `id` int(11) NOT NULL,
+  `room_no` varchar(200) NOT NULL,
+  `capacity` varchar(200) NOT NULL,
+`student_alloted` varchar(200) NOT NULL,
+  `vacant` varchar(200) NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=latin1;
+ ALTER TABLE `tinshed_hall`
+  ADD PRIMARY KEY (`id`);
