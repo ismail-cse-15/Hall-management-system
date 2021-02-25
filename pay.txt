@@ -1,0 +1,12 @@
+CREATE TABLE IF NOT EXISTS `payment` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+    `name` varchar(200) NOT NULL,
+  `roll_no` varchar(200) NOT NULL,
+`receipt_no` varchar(200) NOT NULL,
+  `p_year` varchar(200) NOT NULL,
+  `month` varchar(200) NOT NULL,
+`p_date` varchar(200) NOT NULL
+  )
+ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=latin1;
+ ALTER TABLE `payment`
+  ADD PRIMARY KEY (`id`);  
